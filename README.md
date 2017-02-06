@@ -2,22 +2,23 @@ Outline Effect
 ======================
 Outline Image Effect for Unity
 
-https://gfycat.com/RashGenuineBlackwidowspider
-
-![](http://i.imgur.com/yAKd5Qg.png "Optional title")
+![](http://i.imgur.com/CuUDPyk.jpg "Outline Image Effect for Unity")
 
 FEATURES:
 ------------
-MeshRenderer support
+Sprite/Line/Mesh renderer support
+
+HDR support (useful for bloom, etc...)
 
 Alpha cutout option
 
-Merged outline between multiple sprite/line renderers
+Additive outline rendering option
 
-Erase option to keep outlines behind specific sprite/line renderers
+Merged outline between renderers (or you can add outlines between different colors)
 
-Per sprite/line renderer color support (up to three)
+Erase option to keep outlines behind specific renderers
 
+Per renderer color support (up to three different colors)
 
 INSTALLATION:
 ------------
@@ -25,16 +26,12 @@ Download the files and open the project OR place the "Assets/OutlineEffect" fold
 
 USAGE:
 ------------
-Add a layer called "Outline"
+Add "Outline Effect" component to camera
 
-Add Outline Effect component to camera
+Add "Outline" component to renderers
 
-Add Renderer objects to "Outline Renderers" in the script OR replace the list from your scripts
-
-NOTE:
+SUPPORT:
 ------------
-I do not own the Half Life sprite and it's used for demonstration purposes only under fair use.
+[Twitter @cakeslice_dev](https://twitter.com/cakeslice_dev)
 
-TWITTER:
-------------
-[cakeslice_dev](https://twitter.com/cakeslice_dev)
+[Unity Forum Thread](https://forum.unity3d.com/threads/free-open-source-outline-image-effect.314362)
